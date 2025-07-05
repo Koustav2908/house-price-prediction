@@ -33,6 +33,8 @@ This project builds a linear regression model to predict house sale prices using
     -   📏 **Root Mean Squared Error (RMSE)**: `29476.13`
     -   📈 **R<sup>2</sup> Score**: `0.8867`
 
+---
+
 ## 📊 Visualizations
 
 | Chart                   | Description                                                                 |
@@ -43,6 +45,46 @@ This project builds a linear regression model to predict house sale prices using
 | 🧠 Correlation Heatmap  | Visualize the correlations between pairs of numerical features              |
 | 📊 Histogram            | Difference of the actual and predicted values                               |
 | 🔯 Sample vs Prediction | Compare sample prices given and our predicted prices                        |
+
+---
+
+## 📊 Visualization Examples
+
+1.  Actual vs Predicted `scatterplot` with linear regression line
+
+ <p align="center">
+     <img src="images/actual_vs_predicted_reg_plot.png" alt="actual vs predicted scatterplot with linear regression line" width="1000" />
+ </p>
+
+2.  Distribution of sale prices partioned into `Neighborhood` with `histogram`
+
+ <p align="center">
+     <img src="images/distribution_sale_prices.png" alt="distribution of sale prices" width="1000" />
+ </p>
+
+3.  `Line Plot` for Actual and Predicted values
+
+ <p align="center">
+     <img src="images/actual_vs_predicted_line_plot.png" alt="actual vs predicted lineplot" width="1000" />
+ </p>
+
+4.  Correlation Heatmap of Numerical features
+
+ <p align="center">
+     <img src="images/correlation_heatmap.png" alt="correlation heatmap" width="1000" />
+ </p>
+
+5.  Difference of Sample predictions given and our predictions using `histogram`
+
+ <p align="center">
+     <img src="images/predictions_vs_samples.png" alt="predictions vs samples" width="1000" />
+ </p>
+
+6.  Sample predictions given vs our predictions using `scatterplot` and regression line
+
+ <p align="center">
+     <img src="images/sample_vs_prediction_scatter_plot.png" alt="sample vs our predictions" width="1000" />
+ </p>
 
 ---
 
